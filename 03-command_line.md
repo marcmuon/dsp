@@ -20,8 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > `pwd` show current working directory path
+> > `mkdir <dirname>` create a directory
+> > `rm -rf <dirname>` remove directory and contents
+> > `touch <filename.f>` create files from terminal
+> > `rm <filename.f>` removes file from working directory
+> > `mv <oldname> <newname>` changes from old name to new name
+> > `ls -a | egrep '^\.'` show only hidden files 
+> > `cp <file> <~/path/to/new/dir/>` copy file from one dir to another
+> > `cat <file1> <file2>` display contents of multiple files at once	
+> > `man <commandname>` display manual page for command	
 ---
 
 ### Q2.  List Files in Unix   
@@ -35,11 +43,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > * **ls**: list files in current directory
-	* **ls -a**: list files in current directory including files beginning with dot
-
-
-
+> > - `ls` list files in current directory
+> > - `ls -a` list files in current directory including files beginning with dot
+> > - `ls -l` 
+> > - `ls -lh`
+> > - `ls -lah` 
+> > - `ls -t`
+> > - `ls -Glp`
+ 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
