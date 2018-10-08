@@ -20,16 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > `pwd` show current working directory path
-> > `mkdir <dirname>` create a directory
-> > `rm -rf <dirname>` remove directory and contents
-> > `touch <filename.f>` create files from terminal
-> > `rm <filename.f>` removes file from working directory
-> > `mv <oldname> <newname>` changes from old name to new name
-> > `ls -a | egrep '^\.'` show only hidden files 
-> > `cp <file> <~/path/to/new/dir/>` copy file from one dir to another
-> > `cat <file1> <file2>` display contents of multiple files at once	
-> > `man <commandname>` display manual page for command	
+> > - `pwd` show current working directory path
+> > -  `mkdir <dirname>` create a directory
+> > -  `rm -rf <dirname>` remove directory and contents
+> > -  `touch <filename.f>` create files from terminal
+> > -  `rm <filename.f>` removes file from working directory
+> > -  `mv <oldname> <newname>` changes from old name to new name
+> > -  `ls -a | egrep '^\.'` show only hidden files 
+> > -  `cp <file> <~/path/to/new/dir/>` copy file from one dir to another
+> > -  `cat <file1> <file2>` display contents of multiple files at once	
+> > -  `man <commandname>` display manual page for command	
 ---
 
 ### Q2.  List Files in Unix   
