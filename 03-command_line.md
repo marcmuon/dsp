@@ -45,11 +45,11 @@ What do the following commands do:
 
 > > - `ls` list files in current directory
 > > - `ls -a` list files in current directory including files beginning with dot
-> > - `ls -l` 
-> > - `ls -lh`
-> > - `ls -lah` 
-> > - `ls -t`
-> > - `ls -Glp`
+> > - `ls -l` list files in current directory with details (long format) e.g. permissions, file size
+> > - `ls -lh` list files in long format with humanized unit prefixes for file sizes
+> > - `ls -lah` list files in long format with humanized unit prefixes for file size and include hidden files
+> > - `ls -t` sort file list by time modified
+> > - `ls -Glp` show list with directories in colors and long format and slash after any directory
  
 ### Q3.  More List Files in Unix  
 
