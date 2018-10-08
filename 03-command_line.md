@@ -55,8 +55,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > - `ls -1Gp` list one entry each line and '\' after colored directory
+> > - `ls -R` list content of subdirectories as well
+> > - `ls -mp` comma separated list of directories with '\' directory character
+> > - `ls -o` long format but exclude group owner name
+> > - `ls -rl` reverse order long format
 ---
 
 ### Q4.  Xargs   
