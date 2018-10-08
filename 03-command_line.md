@@ -66,7 +66,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` takes output of one command and passes it (as an argument) to some other other command. For example, say you wanted to find the word count or line count or byte count of all markdown files in a directory. `xargs` can help as follows: `ls *.md* | xargs wc`
 
  
 
