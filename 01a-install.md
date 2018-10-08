@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed Python 3.6.5 via the Anaconda distribution. For my base Python installation I have 3.7 installed, but will migrate mostly to conda environments for data work. Python 2 won't be supported officially after 2020, hence the focus on v3.
 
 ### Q2. Which Python Version Installed   
 
@@ -59,7 +59,7 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 3.6.5 :: Anaconda, Inc.
 
  
 
