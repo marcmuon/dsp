@@ -37,7 +37,7 @@ What do the following commands do:
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
----
+* **ls**: list files in current directory
 
 ### Q3.  More List Files in Unix  
 
