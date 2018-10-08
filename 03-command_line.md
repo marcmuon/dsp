@@ -35,9 +35,10 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * **ls**: list files in current directory
+	* **ls -a**: list files in current directory including files beginning with dot
 
-* **ls**: list files in current directory
+
 
 ### Q3.  More List Files in Unix  
 
