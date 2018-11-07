@@ -87,27 +87,27 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
 >> #### Answer: 5/11
-The probability in question is `P(Elvis an identical twin | Elvis had a twin brother)`. This can be solved with a combination of Bayes Rule and the Total Law of Probability. For convenience, say `I` = Identical Twins, `TB` = Twin Brother, `FT` = Fraternal Twin.
+>> The probability in question is `P(Elvis an identical twin | Elvis had a twin brother)`. This can be solved with a combination of Bayes Rule and the Total Law of Probability. For convenience, say `I` = Identical Twins, `TB` = Twin Brother, `FT` = Fraternal Twin.
 
-If we use Bayes rule, the numerator will be easy to compute, so:
+>> If we use Bayes rule, the numerator will be easy to compute, so:
 
-`P(I|TB)` = `P(TB|I)*P(I) / P(TB)` by Bayes Rule
+>> `P(I|TB)` = `P(TB|I)*P(I) / P(TB)` by Bayes Rule
 
-Note that we have `P(I) = 1/300` already. `P(TB|I)` is simply 1/2, since if you're given data that someone is identical twins, they can only either be identical boys or identical girls by definition. The numerator becomes `1/600` and now we need to find `P(TB)`.
+>> Note that we have `P(I) = 1/300` already. `P(TB|I)` is simply 1/2, since if you're given data that someone is identical twins, they can only either be identical boys or identical girls by definition. The numerator becomes `1/600` and now we need to find `P(TB)`.
 
-`P(TB)` can be found by breaking the sample space of twins into complete disjoint coverage of the space. In other words, note that given twins, they can only be either fraternal twins or identical twins. Then `P(TB)` becomes:
+>> `P(TB)` can be found by breaking the sample space of twins into complete disjoint coverage of the space. In other words, note that given twins, they can only be either fraternal twins or identical twins. Then `P(TB)` becomes:
 
-`P(TB) = P(TB|P(F))*P(F) + P(TB|P(I))*P(I)`, by the total law of probability as `P(I)` is the complement of `P(F)` in this case.
+>> `P(TB) = P(TB|P(F))*P(F) + P(TB|P(I))*P(I)`, by the total law of probability as `P(I)` is the complement of `P(F)` in this case.
 
-Thus `P(TB) = [P(TB|P(F)) * 1/125] + [1/2 * 1/300]`
+>> Thus `P(TB) = [P(TB|P(F)) * 1/125] + [1/2 * 1/300]`
 
-and `P(TB|P(F))` is 1/4 since given a set of fraternal twins, there's only one out of 4 possible ways that they could both be boys. 
+>> and `P(TB|P(F))` is 1/4 since given a set of fraternal twins, there's only one out of 4 possible ways that they could both be boys. 
 
-Then `P(TB) = [1/4 * 1/125] + [1/2 * 1/300] = 1/500 + 1/600`
+>> Then `P(TB) = [1/4 * 1/125] + [1/2 * 1/300] = 1/500 + 1/600`
 
-Finally: `P(I|TB) = (1/600) / (1/500 + 1/600) = 1 / [(600/500) + 1] = 1 / (11/5) = 5/11`
+>> Finally: `P(I|TB) = (1/600) / (1/500 + 1/600) = 1 / [(600/500) + 1] = 1 / (11/5) = 5/11`
 
-So the initial `P(Elvis an identical twin | Elvis had a twin brother)` is 5/11 or 45.45%
+>> So the initial `P(Elvis an identical twin | Elvis had a twin brother)` is 5/11 or 45.45%
 
 ---
 
