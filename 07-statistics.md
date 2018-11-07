@@ -114,7 +114,13 @@ So the initial `P(Elvis an identical twin | Elvis had a twin brother)` is 5/11 o
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The frequentist approach looks at what happens over the long-run. Probabilities interpreted in this context show what would happen by running an experiment over an extremely large number of trials. For instance, in the classic coin flip example, saying that the probability of heads is 50% means that if a fair coin is tossed over and over then the long run frequency of heads is 1/2.
+
+The Bayesian approach uses existing evidence to intrepret probabilities. In other words, thet can be thought of as a degree of belief given prior evidence. In cases where it wouldn't make sense to run a 'long run frequency experiment', Bayesian methods conditioning on evidence can answer questions such as the probability of guilt of a suspect in a criminal trial (although this can be very dangerous if not interpreted correctly!).
+
+Another example is parameter estimation from a sample of a population. In the Bayesian approach, parameters of the true population are unknown values which can be represented probabilistically with a distribution. That is, treat the parameter as a random variable θ. Before observing any data, you set a prior distribution on θ reflecting information or beliefs about the possible values of θ. When data comes in, this new information about θ is merged with the prior distribution to obtain a posterior distribution of θ conditioned on the data.
+
+The frequentist approach instead looks for a point estimate of the true parameter that is most consistent with the sample data. I.e., the unknown parameter is treated as a fixed unknown quantity and not a random variable. One way to do this is to define a function on the unknown true parameters, and find values of the unknown parameters that maximizes the function to fit the data observed from the sample (MLE). 
 
 ---
 
